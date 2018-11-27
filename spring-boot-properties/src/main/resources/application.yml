@@ -1,0 +1,60 @@
+# 自定义属性
+data-structure:
+  # 简单键值对
+  key-value: YAML Sample
+  # 数组
+  array: value1, value2, value3
+  # List 集合
+  list:
+    - value1
+    - value2
+    - value3
+  # Map 散列表
+  map:
+    name: xiaokui
+    email: xiaokui@gmail.com
+
+app:
+  name: Spring Boot Properties Sample
+  description: ${app.name} For My Github's Blog
+
+email-name: xiaokui
+email-from: xiaokui@gmail.com
+
+layout:
+  desc: 布局配置
+  moudles:
+    - desc: 顶部模块
+      width: 100%
+      height: 200px
+    - desc: 主区域模块
+      width: 80%
+      height: auto
+    - desc: 脚部模块
+      width: 100%
+      height: 300px
+  background-rgb: 97, 96, 96, 1
+  tag-cloud-random-colors:
+    - red
+    - blue
+    - green
+    - yellow
+  moudle-color-mapping:
+    top: white
+    main: gray
+    bottom: pink
+  author:
+    name: xiaokui
+    mail: xiaokui@gmail.com
+
+random-seed:
+  random-int-value: ${random.int}
+  random-int-range-value: ${random.int(2)}
+  random-long-value: ${random.long}
+  random-long-range-value: ${random.long(-3,3)}
+  random-uuid-value: ${random.uuid}
+  random-str-value: ${random.whatever}
+  random-secret: ${random.value}
+
+
+command-line-arg: 请从命令行覆盖此参数
