@@ -7,8 +7,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author xiaokui
+ */
 @SpringBootApplication
-public class Application implements CommandLineRunner {
+public class ProfilesApplication implements CommandLineRunner {
 
 	@Value("${custom.env}")
 	private String env;
@@ -18,7 +21,7 @@ public class Application implements CommandLineRunner {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(ProfilesApplication.class, args);
 	}
 
 	@Override

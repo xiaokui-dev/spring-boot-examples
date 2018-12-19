@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.xiaokui.springbootproperties.config.*;
 
 @SpringBootApplication
-public class SpringBootPropertiesApplication implements CommandLineRunner {
+public class PropertiesApplication implements CommandLineRunner {
 
 	@Autowired
 	private DataStructureConfig dataStructureConfig;
@@ -42,7 +42,7 @@ public class SpringBootPropertiesApplication implements CommandLineRunner {
 	private CommandLineConfig commandLineConfig;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootPropertiesApplication.class, args);
+		SpringApplication.run(PropertiesApplication.class, args);
 	}
 
 	@Override

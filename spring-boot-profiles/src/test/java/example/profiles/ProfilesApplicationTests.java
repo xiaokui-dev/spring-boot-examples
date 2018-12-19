@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ActiveProfiles("prod")
-public class ApplicationTest {
+public class ProfilesApplicationTests {
 
     @Test
     public void testProfiles() {

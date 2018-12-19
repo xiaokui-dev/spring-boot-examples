@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @tk.mybatis.spring.annotation.MapperScan("org.xiaokui.springboot.mybatis.mapper")
-public class SpringBootMybatisApplication {
+public class MybatisApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMybatisApplication.class, args);
+		SpringApplication.run(MybatisApplication.class, args);
 	}
 }

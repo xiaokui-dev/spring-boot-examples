@@ -12,7 +12,7 @@ import java.util.Date;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringBootRabbitmqApplicationTests {
+public class RabbitmqApplicationTests {
 
     @Test
     public void publisher() {
