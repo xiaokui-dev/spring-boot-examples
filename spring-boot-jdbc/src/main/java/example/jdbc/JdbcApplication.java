@@ -9,9 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2018-04-23 17:23
  */
 @SpringBootApplication
-public class SpringBootJdbcApplication {
+public class JdbcApplication {
 
     public static void main(String[] args){
-        SpringApplication.run(SpringBootJdbcApplication.class,args);
+        SpringApplication.run(JdbcApplication.class,args);
     }
 }

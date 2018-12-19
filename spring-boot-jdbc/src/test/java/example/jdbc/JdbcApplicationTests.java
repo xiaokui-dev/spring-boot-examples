@@ -8,13 +8,14 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**
- * @author xiaokui
- * @Description:
- * @date 2018-04-23 20:13
+ * Description :
+ *
+ * @author : xiaokui
+ * @date : 2018/12/19
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class JdbcTemplateTest {
+public class JdbcApplicationTests {
 
     @Autowired
     private JdbcTemplate jdbcTemplateOne;

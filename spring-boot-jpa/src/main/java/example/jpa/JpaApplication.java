@@ -6,13 +6,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class JpaApplication {
 
 
-	private final static Logger logger = LoggerFactory.getLogger(Application.class);
+	private final static Logger logger = LoggerFactory.getLogger(JpaApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(JpaApplication.class, args);
 	}
 
 
