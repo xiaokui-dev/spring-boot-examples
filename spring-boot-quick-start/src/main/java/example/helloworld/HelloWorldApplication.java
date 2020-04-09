@@ -20,9 +20,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author xiaokui
  */
 @SpringBootApplication // same as @Configuration @EnableAutoConfiguration @ComponentScan
-public class Application {
+public class HelloWorldApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(HelloWorldApplication.class, args);
     }
 }

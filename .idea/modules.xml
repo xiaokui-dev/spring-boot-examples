@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-examples.iml" filepath="$PROJECT_DIR$/spring-boot-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot-jdbc/spring-boot-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jsp/spring-boot-jsp.iml" filepath="$PROJECT_DIR$/spring-boot-jsp/spring-boot-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-kafka/spring-boot-kafka.iml" filepath="$PROJECT_DIR$/spring-boot-kafka/spring-boot-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-profiles/spring-boot-profiles.iml" filepath="$PROJECT_DIR$/spring-boot-profiles/spring-boot-profiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-properties/spring-boot-properties.iml" filepath="$PROJECT_DIR$/spring-boot-properties/spring-boot-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-quick-start/spring-boot-quick-start.iml" filepath="$PROJECT_DIR$/spring-boot-quick-start/spring-boot-quick-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" filepath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" filepath="$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
+    </modules>
+  </component>
+</project>
