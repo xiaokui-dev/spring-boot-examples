@@ -9,9 +9,10 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 /**
- * @author xiaokui
- * @Description:数据源配置类
- * @date 2018-04-23 17:26
+ * Description : 数据源配置类
+ *
+ * @author : xiaokui
+ * @date : 2018-04-23 17:26
  */
 @SpringBootConfiguration
 public class DataSourceConfig {

@@ -4,9 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author xiaokui
- * @Description:
- * @date 2018-04-23 17:23
+ * Description : 数据源配置类
+ *
+ * @author : xiaokui
+ * @date : 2018-04-23 17:26
  */
 @SpringBootApplication
 public class JdbcApplication {
