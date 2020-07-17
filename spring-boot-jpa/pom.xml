@@ -6,11 +6,9 @@
 	<artifactId>spring-boot-jpa</artifactId>
 	<packaging>jar</packaging>
 
-
-
 	<parent>
 		<groupId>org.xiaokui</groupId>
-		<artifactId>spring-boot-examples</artifactId>
+		<artifactId>parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
