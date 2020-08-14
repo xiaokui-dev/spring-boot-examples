@@ -1,16 +1,18 @@
 package example.helloworld.web;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * HelloWorldController
+ * Description : Controller
+ *
+ * @author : xiaokui
+ * @date : 2020-08-14
  */
-@RestController // 标注@RestController注解的类不用再使用@Responsebody,也不用在写什么jackjson配置的了！
+@RestController
 public class HelloWorldController {
 
-    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    @GetMapping(value = "/hello")
     public String helloWorld() {
         return "Hello World";
     }

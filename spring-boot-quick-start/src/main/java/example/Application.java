@@ -8,21 +8,21 @@
  * ("Confidential Information"). You shall not disclose such Confidential Information and shall use
  * it only in accordance with the terms of the license agreement you entered into with Sun.
  */
-package example.helloworld;
+package example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * (Spring Boot启动类).
+ * Description : Spring Boot 启动类
  *
- * @version 1.0
- * @author xiaokui
+ * @author : xiaokui
+ * @date : 2020-08-14
  */
-@SpringBootApplication // same as @Configuration @EnableAutoConfiguration @ComponentScan
-public class HelloWorldApplication {
+@SpringBootApplication
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(HelloWorldApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
