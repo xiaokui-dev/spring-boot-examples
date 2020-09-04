@@ -19,9 +19,11 @@
         <!-- mysql -->
         <mysql.version>8.0.21</mysql.version>
         <!-- druid 连接池 -->
-        <druid.version>1.1.9</druid.version>
+        <druid.version>1.1.17</druid.version>
         <!-- google guava -->
         <guava.version>29.0-jre</guava.version>
+        <!-- google gson-->
+        <gson.version>2.3</gson.version>
         <!-- lombok -->
         <lombok.version>1.18.12</lombok.version>
     </properties>
@@ -51,6 +53,12 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>${gson.version}</version>
             </dependency>
 
             <dependency>
