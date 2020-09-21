@@ -17,6 +17,24 @@ management:
   metrics:
     export:
       influx:
-        uri:
+        uri: http://localhost:8086
+        db: springboot
+        step: 1s
+    web:
+      server:
+        request:
+          autotime:
+            enabled: true
+
 server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
   port: 8080
+
+mybatis:
+  configuration:
+    # 下划线转驼峰
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: example.actuator.domin
