@@ -1,6 +1,7 @@
 package example.actuator.mapper;
 
 import example.actuator.domin.UserInfo;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
  * @author : xiaokui
  * @date : 2020-09-21
  */
+@Mapper
 public interface UserInfoMapper {
 
     /**
