@@ -1,28 +1,35 @@
-package com.java.main;
+package example.data.structure.main;
 
-import com.java.dao.SeqQueueDao;
-import com.java.model.SeqQueue;
 
+import example.data.structure.dao.SeqQueueDao;
+import example.data.structure.model.SeqQueue;
+
+/**
+ * Description :
+ *
+ * @author : xiaokui
+ * @date : 2021-07-11
+ */
 public class SeqQueueMain {
     public static void main(String[] args) {
-        SeqQueueDao seqQueueDao=new SeqQueueDao();
+        SeqQueueDao seqQueueDao = new SeqQueueDao();
         //初始化队列
-        SeqQueue queue=seqQueueDao.Init_SeqQueue();
+        SeqQueue queue = seqQueueDao.initSeqQueue();
 
         //入队
-        seqQueueDao.Push_SeqQueue(queue,"A");
-        seqQueueDao.Push_SeqQueue(queue,"B");
-        seqQueueDao.Push_SeqQueue(queue,"C");
-        seqQueueDao.Push_SeqQueue(queue,"D");
-        seqQueueDao.Push_SeqQueue(queue,"E");
+        seqQueueDao.pushSeqQueue(queue, "A");
+        seqQueueDao.pushSeqQueue(queue, "B");
+        seqQueueDao.pushSeqQueue(queue, "C");
+        seqQueueDao.pushSeqQueue(queue, "D");
+        seqQueueDao.pushSeqQueue(queue, "E");
 
         //出队
-        while (queue.size>0){
+        while (queue.size > 0) {
             //查找队头元素
-            Object o=seqQueueDao.Front_SeqQueue(queue);
+            Object o = seqQueueDao.frontSeqQueue(queue);
             System.out.println(o);
             //出队
-            seqQueueDao.Pop_SeqQueue(queue);
+            seqQueueDao.popSeqQueue(queue);
         }
     }
 }

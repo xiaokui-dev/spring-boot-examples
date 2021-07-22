@@ -1,28 +1,35 @@
-package com.java.main;
+package example.data.structure.main;
 
-import com.java.dao.SeqStackDao;
-import com.java.model.SeqStack;
+import example.data.structure.dao.SeqStackDao;
+import example.data.structure.model.SeqStack;
 
+/**
+ * Description :
+ *
+ * @author : xiaokui
+ * @date : 2021-07-11
+ */
 public class SeqStackMain {
+
     public static void main(String[] args) {
-        SeqStackDao seqStackDao=new SeqStackDao();
+        SeqStackDao seqStackDao = new SeqStackDao();
         //初始化栈
-        SeqStack stack=seqStackDao.Init_SeqStack();
+        SeqStack stack = seqStackDao.initSeqStack();
 
         //入栈
-        seqStackDao.Push_SeqStack(stack,"A");
-        seqStackDao.Push_SeqStack(stack,"B");
-        seqStackDao.Push_SeqStack(stack,"C");
-        seqStackDao.Push_SeqStack(stack,"D");
-        seqStackDao.Push_SeqStack(stack,"E");
+        seqStackDao.pushSeqStack(stack, "A");
+        seqStackDao.pushSeqStack(stack, "B");
+        seqStackDao.pushSeqStack(stack, "C");
+        seqStackDao.pushSeqStack(stack, "D");
+        seqStackDao.pushSeqStack(stack, "E");
 
         //输出栈元素
-        while(stack.size>0) {
+        while (stack.size > 0) {
             //查找栈顶元素
-            Object o = seqStackDao.Top_SeqStack(stack);
+            Object o = seqStackDao.topSeqStack(stack);
             System.out.println(o);
             //出栈
-            seqStackDao.Pop_SeqStack(stack);
+            seqStackDao.popSeqStack(stack);
         }
     }
 }

@@ -1,4 +1,6 @@
-package example.data.structure;
+package example.data.structure.dao;
+
+import example.data.structure.model.BinaryTreeNode;
 
 import java.util.Stack;
 
@@ -33,7 +35,9 @@ public class BTNotRecursionDao {
         }
     }
 
-    //二叉树中序遍历（非递归）
+    /**
+     * 二叉树中序遍历（非递归）
+     */
     public void ZBTNotRecursion(BinaryTreeNode root){
         BinaryTreeNode temp = root;
         Stack<BinaryTreeNode> stack = new Stack<BinaryTreeNode>();
@@ -53,7 +57,10 @@ public class BTNotRecursionDao {
             }
         }
     }
-    //二叉树后序遍历（非递归）
+
+    /**
+     * 二叉树后序遍历（非递归）
+     */
     public void HBTNotRecursion(BinaryTreeNode root){
         BinaryTreeNode temp = root;
         //标记访问序列中前一个二叉树节点（当前节点的之前访问的节点）
@@ -81,5 +88,39 @@ public class BTNotRecursionDao {
                 }
             }
         }
+    }
+
+    /**
+     * Description :
+     *
+     * @author : xiaokui
+     * @date : 2021-07-11
+     */
+    public static class BTRecursionDao {
+
+        public void RecursionBiTree(BinaryTreeNode root){
+            if(root==null){
+                return;
+            }
+            //先序遍历
+            System.out.print(root.ch+" ");
+            RecursionBiTree(root.lchild);
+            RecursionBiTree(root.rchild);
+
+            /**
+             * 中序遍历(其实就是把顺序调换一下)
+             * RecursionBiTree(root.lchild);
+             * System.out.print(root.ch+" ");
+             * RecursionBiTree(root.rchild);
+             */
+
+            /**
+             * 后序遍历
+             * RecursionBiTree(root.lchild);
+             * RecursionBiTree(root.rchild);
+             * System.out.print(root.ch+" ");
+             */
+        }
+
     }
 }
